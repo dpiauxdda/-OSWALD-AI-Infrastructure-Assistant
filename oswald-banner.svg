@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500" role="img" aria-label="OSWALD banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#090909"/>
+      <stop offset="55%" stop-color="#111"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
+  </defs>
+  <rect width="1500" height="500" fill="url(#bg)"/>
+  <g opacity="0.18" stroke="#ffffff" stroke-width="1">
+    <path d="M0 120 H1500"/>
+    <path d="M0 250 H1500"/>
+    <path d="M0 380 H1500"/>
+    <path d="M250 0 V500"/>
+    <path d="M750 0 V500"/>
+    <path d="M1250 0 V500"/>
+  </g>
+  <g transform="translate(1050 255)">
+    <circle cx="0" cy="0" r="76" fill="none" stroke="#f3f3f3" stroke-width="3" opacity="0.85"/>
+    <circle cx="-28" cy="-10" r="10" fill="#f3f3f3"/>
+    <circle cx="28" cy="-10" r="10" fill="#f3f3f3"/>
+    <circle cx="-28" cy="-10" r="4" fill="#090909"/>
+    <circle cx="28" cy="-10" r="4" fill="#090909"/>
+    <path d="M-18 26 Q0 40 18 26" fill="none" stroke="#f3f3f3" stroke-width="3" stroke-linecap="round"/>
+    <g fill="none" stroke="#f3f3f3" stroke-width="3" stroke-linecap="round" opacity="0.95">
+      <path d="M-62 54 C-98 72 -120 102 -128 140"/>
+      <path d="M-40 66 C-68 96 -80 138 -74 176"/>
+      <path d="M-10 72 C-26 110 -20 146 4 180"/>
+      <path d="M62 54 C98 72 120 102 128 140"/>
+      <path d="M40 66 C68 96 80 138 74 176"/>
+      <path d="M10 72 C26 110 20 146 -4 180"/>
+    </g>
+    <circle cx="0" cy="0" r="96" fill="none" stroke="#f3f3f3" opacity="0.12" filter="url(#soft)"/>
+  </g>
+  <g transform="translate(120,118)">
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="700" fill="#f5f5f5" letter-spacing="6">OSWALD</text>
+    <text x="4" y="58" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#d9d9d9" letter-spacing="4">DISTRIBUTED INTELLIGENCE FOR UNCOMFORTABLE TRUTHS</text>
+    <text x="4" y="118" font-family="Courier New, monospace" font-size="22" fill="#bdbdbd">[ dignity ]  [ autonomy ]  [ exposure ]  [ valuation ]</text>
+    <rect x="0" y="160" width="520" height="94" rx="8" fill="none" stroke="#f3f3f3" opacity="0.4"/>
+    <text x="22" y="196" font-family="Courier New, monospace" font-size="23" fill="#f3f3f3">status: passive-aggressive</text>
+    <text x="22" y="230" font-family="Courier New, monospace" font-size="23" fill="#f3f3f3">recommendation: reclaim time</text>
+  </g>
+  <text x="120" y="440" font-family="Courier New, monospace" font-size="18" fill="#9f9f9f">Channel 15 Media™ // Home Office™ at home℠ // valuation in progress</text>
+</svg>
